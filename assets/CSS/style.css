@@ -1,0 +1,71 @@
+/*title code*/
+.jumbotron{
+    background-color: grey;
+    padding: 20px;
+    margin:20px;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+/*common code*/
+.cssPadding>h1, .cssBorder>h1, .cssMargin>h1{
+    background-color: turquoise;
+    color: #fff;
+    border-radius: 5px;
+}
+/* css padding code */
+.cssPadding>h1:nth-child(1){
+    padding: 50px; /*applies on all the sides*/
+}
+.cssPadding>h1:nth-child(2){
+    padding : 25px 75px; /*applies vertical horizontal sides*/
+}
+.cssPadding>h1:nth-child(3){
+    padding: 25px 50px 75px; /*applies top vertical bottom sides*/
+}
+.cssPadding>h1:nth-child(4){
+    padding: 25px 50px 75px 100px; /*applies on top right bottom left*/
+}
+/* css border code */
+.cssBorder>{
+    padding: 20px;
+}
+.cssBorder>h1:nth-child(1){
+    border: 5px solid orchid;/*applies on all the sides*/
+}
+.cssBorder>h1:nth-child(2){
+    border: 5px;
+    border-color: olivedrab orangered; /*applies vertical horizontal sides*/
+    border-style: solid;
+}
+.cssBorder>h1:nth-child(3){
+    border: 5px;
+    border-color:  olivedrab orangered goldenrod;/*applies top vertical bottom sides*/
+    border-style: solid;
+}
+.cssBorder>h1:nth-child(4){
+    border: 5px;
+    border-color:  olivedrab orangered goldenrod hotpink;/*applies on top right bottom left*/
+    border-style: solid;
+}
+/*css margin code */
+.cssMargin>h1:nth-child(1){
+    margin: 50px; /*applies on all the sides*/
+}
+.cssMargin>h1:nth-child(2){
+    margin: 25px 75px; /*applies vertical horizontal sides*/
+}
+.cssMargin>h1:nth-child(3){
+    margin: 25px 50px 75px; /*applies top vertical bottom sides*/
+}
+.cssMargin>h1:nth-child(4){
+    margin: 25px 50px 75px 100px; /*applies on top right bottom left*/
+}
+/*CSS BOX MODEL*/
+.cssBoxModel{
+    background-color: blanchedalmond;
+    padding: 20px;
+    border: 5px solid #000;
+    margin: 30px;
+    color: blue;
+}
